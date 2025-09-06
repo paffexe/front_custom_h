@@ -9,7 +9,7 @@ import Service from "./service";
 import ProductDetail from "./product-detail";
 import Users from "./users";
 import UserDetail from "./user-detail";
-import Post from "./post/post";
+import Posts from "./post/posts";
 
 const AppRouter = () => {
   return (
@@ -25,7 +25,7 @@ const AppRouter = () => {
           <Route path="/product/:id" element={<ProductDetail />} />
           <Route path="/users" element={<Users />} />
           <Route path="/user/:id" element={<UserDetail />} />
-          <Route path="/post" element={<Post />} />
+          <Route path="/post" element={<Posts />} />
 
           <Route path="*" element={<div>404</div>} />
         </Route>

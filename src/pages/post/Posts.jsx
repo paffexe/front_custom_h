@@ -2,7 +2,7 @@ import axios from "axios";
 import React, { useEffect, useState } from "react";
 import PostView from "./PostView";
 
-const Post = () => {
+const Posts = () => {
   const [posts, setPost] = useState([]);
 
   useEffect(() => {
@@ -19,4 +19,4 @@ const Post = () => {
   );
 };
 
-export default Post;
+export default Posts;
