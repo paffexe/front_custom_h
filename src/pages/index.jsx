@@ -9,7 +9,8 @@ import Service from "./service";
 import ProductDetail from "./product-detail";
 import Users from "./users";
 import UserDetail from "./user-detail";
-import Posts from "./post/posts";
+import Posts from "./post/Posts";
+
 
 const AppRouter = () => {
   return (
